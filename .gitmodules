@@ -1,0 +1,3 @@
+[submodule "App-Lint-Tool"]
+	path = App-Lint-Tool
+	url = git@github.com:Iam-llq-0007-xq/App-Lint-Tool.git
