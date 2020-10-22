@@ -1,7 +1,7 @@
 const express = require('express');
 const app = new express();
-const env = require('dotenv').config();
-const PORT = env.PORT || 8001;
+require('dotenv').config();
+const PORT = process.env.PORT || 8001;
 
 app.get('/token', (req, res) => {
   res.send({
